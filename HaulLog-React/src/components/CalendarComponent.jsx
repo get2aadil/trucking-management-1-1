@@ -3,19 +3,17 @@ import { Calendar, momentLocalizer } from 'react-big-calendar';
 import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import './components.css';
+import CustomToolbar from './CustomToolbar';
 
 const localizer = momentLocalizer(moment);
 
-const events = [
-    // Example events, replace with your shipmentDates data
-    {
-        start: new Date(),
-        end: new Date(),
-        title: 'Shipment 1',
-    },
-];
-
 function CalendarComponent({ shipmentDates, onMonthChange }) {
+    const events = shipmentDates.map(item => ({
+        start: new Date(item.shipmentDate),
+        end: new Date(item.shipmentDate),
+        title: `Truck ${item.truckId}`
+    }));
+
     const handleNavigate = (date) => {
         onMonthChange(date);
     };
@@ -27,8 +25,11 @@ function CalendarComponent({ shipmentDates, onMonthChange }) {
                 events={events}
                 startAccessor="start"
                 endAccessor="end"
-                style={{ height: '90vh', width: '90vw' }}
+                style={{ height: '100%', width: '100%' }}
                 onNavigate={handleNavigate}
+                components={{
+                    toolbar: CustomToolbar
+                }}
             />
         </div>
     );

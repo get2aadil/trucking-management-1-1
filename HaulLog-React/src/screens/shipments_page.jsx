@@ -19,7 +19,9 @@ function LoginLandingPage() {
                 if (response.ok) {
                     const data = await response.json();
                     // console.log(data[0].shipmentCreatedDate);
-                    const dates = data.map(item => new Date(item.shipmentCreatedDate));
+                    const dates = data.map(item => ({
+                        truckId : item.truckId,
+                        shipmentDate: new Date(item.shipmentCreatedDate)}));
                     console.log(dates);
                     setShipmentDates(dates);
                 } else {
