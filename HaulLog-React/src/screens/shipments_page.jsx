@@ -1,28 +1,27 @@
-import React, {useEffect, useState} from "react";
-import './styles.css';
-import NavigationBar from '../components/navbar';
+import React, { useState, useEffect } from 'react';
 import CalendarComponent from '../components/CalendarComponent';
+import NavigationBar from '../components/navbar';
 
+const apiURL = `http://${window.location.hostname}:8080`;
 
 function LoginLandingPage() {
-    const [ shipmentDates, setShipmentDates] = useState([]);
+    const [shipmentDates, setShipmentDates] = useState([]);
     const [activeDate, setActiveDate] = useState(new Date());
-    const apiURL = `http://${window.location.hostname}:8080`;
 
     useEffect(() => {
         const fetchShipments = async () => {
             const month = activeDate.getMonth() + 1;
             const year = activeDate.getFullYear();
-            console.log("URL :" + apiURL + '/getShipmentsByDate/' + month.toString()+'/' + year.toString())
+            console.log("URL :" + apiURL + '/getShipmentsByDate/' + month.toString()+'/' + year.toString());
             try {
                 const response = await fetch(apiURL + '/getShipmentsByDate/' + month.toString()+'/' + year.toString());
                 if (response.ok) {
                     const data = await response.json();
-                    // console.log(data[0].shipmentCreatedDate);
                     const dates = data.map(item => ({
-                        shipmentId : item.shipmentId,
-                        truckId : item.truckId,
-                        shipmentDate: new Date(item.shipmentCreatedDate)}));
+                        shipmentId: item.shipmentId,
+                        truckId: item.truckId,
+                        shipmentDate: new Date(item.shipmentCreatedDate)
+                    }));
                     console.log(dates);
                     setShipmentDates(dates);
                 } else {
@@ -42,9 +41,9 @@ function LoginLandingPage() {
 
     return (
         <div>
-            <NavigationBar/>
+            <NavigationBar />
             <div className="login-landing-container">
-                <CalendarComponent shipmentDates={shipmentDates} onMonthChange={handleMonthChange}/>
+                <CalendarComponent shipmentDates={shipmentDates} onMonthChange={handleMonthChange} />
             </div>
         </div>
     );
