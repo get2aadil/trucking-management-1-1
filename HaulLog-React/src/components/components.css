@@ -163,3 +163,48 @@ button {
     background-color: #ffd700; /* Example: gold background */
     color: white; /* white text */
 }
+
+/* Add the following CSS to center the calendar and make it cover the whole screen */
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.1); /* Optional: Add a semi-transparent background */
+  z-index: 1000; /* Ensure the calendar is on top */
+}
+
+.react-calendar {
+  width: 90%;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.big-calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.1); /* Optional: Add a semi-transparent background */
+  z-index: 1000; /* Ensure the calendar is on top */
+}
+
+.rbc-calendar {
+  width: 90%;
+  max-width: 1200px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}

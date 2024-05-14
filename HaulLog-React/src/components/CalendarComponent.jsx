@@ -1,28 +1,35 @@
-import React from "react";
-// import { useState } from "react";
-import Calendar from "react-calendar";
-import 'react-calendar/dist/Calendar.css';
+import React from 'react';
+import { Calendar, momentLocalizer } from 'react-big-calendar';
+import moment from 'moment';
+import 'react-big-calendar/lib/css/react-big-calendar.css';
 import './components.css';
 
-function CalendarComponent({shipmentDates, onMonthChange}) {
-    
-    console.log("Shipment", shipmentDates);
-    const tileClassName = ({date,view}) => {
-        // Check for shipment Dates
-        
-        if(view === 'month' && shipmentDates.some(
-            d => new Date(d).toDateString() === date.toDateString()
-        )) {
-            return 'highlight';
-        }
-    }
+const localizer = momentLocalizer(moment);
+
+const events = [
+    // Example events, replace with your shipmentDates data
+    {
+        start: new Date(),
+        end: new Date(),
+        title: 'Shipment 1',
+    },
+];
+
+function CalendarComponent({ shipmentDates, onMonthChange }) {
+    const handleNavigate = (date) => {
+        onMonthChange(date);
+    };
 
     return (
-        <div className='react-calendar'>
-            <Calendar 
-            onChange={onMonthChange} 
-            onActiveStartDateChange={({activeStartDate, view}) => view === 'month' && onMonthChange(activeStartDate)}
-            tileClassName={tileClassName} />
+        <div className='big-calendar-container'>
+            <Calendar
+                localizer={localizer}
+                events={events}
+                startAccessor="start"
+                endAccessor="end"
+                style={{ height: '90vh', width: '90vw' }}
+                onNavigate={handleNavigate}
+            />
         </div>
     );
 }
