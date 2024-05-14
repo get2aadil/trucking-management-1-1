@@ -13,6 +13,7 @@ import static org.mockito.Mockito.when;
 import static org.testng.Assert.assertEquals;
 
 import java.util.Optional;
+import java.util.Map;
 
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -38,7 +39,7 @@ public class LoginControllerTests {
     	User mockUser = new User("abc@email.com", "abc123");
         when(userService.getUserByUsername(mockUser.getUsername())).thenReturn(Optional.of(mockUser));
 
-        ResponseEntity<String> response = controller.login(mockUser);
+        ResponseEntity<Map<String,String>> response = controller.login(mockUser);
 
         assertEquals(response.getStatusCode(), HttpStatus.OK);
         assertEquals(response.getBody(), "Login successful");
@@ -49,7 +50,7 @@ public class LoginControllerTests {
     	User mockUser = new User("abc@email.com", "abc123");
         when(userService.getUserByUsername("abc@email.com")).thenReturn(Optional.of(mockUser));
 
-        ResponseEntity<String> response = controller.login(new User("abc@email.com", "wrongPassword"));
+        ResponseEntity<Map<String,String>> response = controller.login(new User("abc@email.com", "wrongPassword"));
 
         assertEquals(response.getStatusCode(), HttpStatus.UNAUTHORIZED);
         assertEquals(response.getBody(), "Invalid username or password");
@@ -60,7 +61,7 @@ public class LoginControllerTests {
     	User mockUser = new User("usernotexist@email.com", "abc123");
         when(userService.getUserByUsername("usernotexist@email.com")).thenReturn(Optional.empty());
 
-        ResponseEntity<String> response = controller.login(mockUser);
+        ResponseEntity<Map<String,String>> response = controller.login(mockUser);
     	
         assertEquals(response.getStatusCode(), HttpStatus.UNAUTHORIZED);
         assertEquals(response.getBody(), "User not found");
