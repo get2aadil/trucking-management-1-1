@@ -20,6 +20,7 @@ function LoginLandingPage() {
                     const data = await response.json();
                     // console.log(data[0].shipmentCreatedDate);
                     const dates = data.map(item => ({
+                        shipmentId : item.shipmentId,
                         truckId : item.truckId,
                         shipmentDate: new Date(item.shipmentCreatedDate)}));
                     console.log(dates);
