@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 08 09:54:35 PDT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4696 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.haullog.haullog.controllers.LoginControllerTests.testLoginUserNotFound()'><b>testLoginUserNotFound</b><br>Test class: com.haullog.haullog.controllers.LoginControllerTests</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.controllers.LoginControllerTests@14a54ef6</td></tr>
+<tr>
+<td title='com.haullog.haullog.controllers.expenseControllerTests.getExpenseByTruckIdTests.GetExpensesByTruckIdTests.testGetExpensesForTruck()'><b>testGetExpensesForTruck</b><br>Test class: com.haullog.haullog.controllers.expenseControllerTests.getExpenseByTruckIdTests.GetExpensesByTruckIdTests</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.controllers.expenseControllerTests.getExpenseByTruckIdTests.GetExpensesByTruckIdTests@867ba60</td></tr>
+<tr>
+<td title='com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthYearSuccessTest.getShipmentsByMonthYearFound()'><b>getShipmentsByMonthYearFound</b><br>Test class: com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthYearSuccessTest</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthYearSuccessTest@5ba745bc</td></tr>
+<tr>
+<td title='com.haullog.haullog.controllers.expenseControllerTests.addExpenseControllerTests.AddExpenseControllerSuccessTest.testAddExpenseControllerSuccess()'><b>testAddExpenseControllerSuccess</b><br>Test class: com.haullog.haullog.controllers.expenseControllerTests.addExpenseControllerTests.AddExpenseControllerSuccessTest</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.controllers.expenseControllerTests.addExpenseControllerTests.AddExpenseControllerSuccessTest@6aa648b9</td></tr>
+<tr>
+<td title='com.haullog.haullog.controllers.ShipmentControllerTests.testGetShipmentsByDateInFutureError()'><b>testGetShipmentsByDateInFutureError</b><br>Test class: com.haullog.haullog.controllers.ShipmentControllerTests</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.controllers.ShipmentControllerTests@33a053d</td></tr>
+<tr>
+<td title='com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForTruckServiceTest.getExpensesForTruckServiceTest()'><b>getExpensesForTruckServiceTest</b><br>Test class: com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForTruckServiceTest</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForTruckServiceTest@20921b9b</td></tr>
+<tr>
+<td title='com.haullog.haullog.controllers.ShipmentControllerTests.testGetShipmentsByDateSuccess()'><b>testGetShipmentsByDateSuccess</b><br>Test class: com.haullog.haullog.controllers.ShipmentControllerTests</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.controllers.ShipmentControllerTests@33a053d</td></tr>
+<tr>
+<td title='com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthFailureTest.getShipmentsByMonthYearEmpty()'><b>getShipmentsByMonthYearEmpty</b><br>Test class: com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthFailureTest</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthFailureTest@456abb66</td></tr>
+<tr>
+<td title='com.haullog.haullog.controllers.SignUpControllerTests.testSignUpSuccess()'><b>testSignUpSuccess</b><br>Test class: com.haullog.haullog.controllers.SignUpControllerTests</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.controllers.SignUpControllerTests@3f3c7bdb</td></tr>
+<tr>
+<td title='com.haullog.haullog.controllers.SignUpControllerTests.testSignUpUserAlreadyExists()'><b>testSignUpUserAlreadyExists</b><br>Test class: com.haullog.haullog.controllers.SignUpControllerTests</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.controllers.SignUpControllerTests@3f3c7bdb</td></tr>
+<tr>
+<td title='com.haullog.haullog.controllers.LoginControllerTests.testLoginWrongPassword()'><b>testLoginWrongPassword</b><br>Test class: com.haullog.haullog.controllers.LoginControllerTests</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.controllers.LoginControllerTests@14a54ef6</td></tr>
+<tr>
+<td title='com.haullog.haullog.controllers.LoginControllerTests.testLoginSuccess()'><b>testLoginSuccess</b><br>Test class: com.haullog.haullog.controllers.LoginControllerTests</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.controllers.LoginControllerTests@14a54ef6</td></tr>
+<tr>
+<td title='com.haullog.haullog.services.expenseServiceImplementationTests.AddExpenseTest.testAddExpenseServiceSuccess()'><b>testAddExpenseServiceSuccess</b><br>Test class: com.haullog.haullog.services.expenseServiceImplementationTests.AddExpenseTest</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.services.expenseServiceImplementationTests.AddExpenseTest@2a3a299</td></tr>
+<tr>
+<td title='com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameSuccessTest.getUserByUserNameSuccess()'><b>getUserByUserNameSuccess</b><br>Test class: com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameSuccessTest</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameSuccessTest@15fc442</td></tr>
+<tr>
+<td title='com.haullog.haullog.controllers.ShipmentControllerTests.testGetShipmentsByDateMonthError()'><b>testGetShipmentsByDateMonthError</b><br>Test class: com.haullog.haullog.controllers.ShipmentControllerTests</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.controllers.ShipmentControllerTests@33a053d</td></tr>
+<tr>
+<td title='com.haullog.haullog.HaUlLogApplicationTests.contextLoads()'><b>contextLoads</b><br>Test class: com.haullog.haullog.HaUlLogApplicationTests</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.HaUlLogApplicationTests@6034e75d</td></tr>
+<tr>
+<td title='com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForEmployeeServiceTest.testGetExpenseByEmployeeServiceSuccess()'><b>testGetExpenseByEmployeeServiceSuccess</b><br>Test class: com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForEmployeeServiceTest</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForEmployeeServiceTest@6759f091</td></tr>
+<tr>
+<td title='com.haullog.haullog.controllers.expenseControllerTests.getExpenseByEmployeeIdTests.GetExpenseByEmployeeIdTests.testGetExpensesForEmployee()'><b>testGetExpensesForEmployee</b><br>Test class: com.haullog.haullog.controllers.expenseControllerTests.getExpenseByEmployeeIdTests.GetExpenseByEmployeeIdTests</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.controllers.expenseControllerTests.getExpenseByEmployeeIdTests.GetExpenseByEmployeeIdTests@654b72c0</td></tr>
+<tr>
+<td title='com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameFailureTest.createNewUserFailure()'><b>createNewUserFailure</b><br>Test class: com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameFailureTest</td>
+<td></td>
+<td>0</td>
+<td>com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameFailureTest@55b5e331</td></tr>
+</table><p>
+</body>
+</html>

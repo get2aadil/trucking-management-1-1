@@ -1,0 +1,129 @@
+/* styles.css */
+
+/* Global styles */
+
+/* Landing container */
+.landing-container {
+    background-image: url('../Assets/background_img.png'); /* Background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    height: calc(100vh - 50px); /* Set height of the landing container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black; /* Text color */
+    text-align: center;
+  }
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../Assets/background_img.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Adjust the opacity value to fade out the image */
+    z-index: -1; /* Send the background behind other content */
+  }
+    
+  /* Form container */
+  .form-container {
+    width: 300px;
+    margin: auto ;
+    margin-top: 200px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+    color: #333; /* dark gray text */
+  }
+  
+  /* Text inputs */
+  input[type="text"],
+  input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Login button */
+  button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: lightblue;
+    /* color: white; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: blue;
+  }
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Login container */
+/* Login container */
+.login-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute items along the main axis */
+    align-items: center; /* Center items vertically */
+  }
+  
+  /* Login heading */
+  .login-heading {
+    color: #2E0C6A; /* Desired color for "Login" text */
+    font-weight: bold; /* Set font weight to bold */
+  }  
+
+  .login-signup-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-signup-links .nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px; /* Add padding to the links */
+  }
+  
+  .login-signup-links .nav-item:hover {
+    background-color: #1d7ebf; /* Change background color on hover */
+  }
+  
+
+  .login-signup-links .nav-item:not(:last-child) {
+    margin-right: 0; /* Remove margin between login and signup links */
+  }
+  
+  .login-landing-container {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 40%;
+    height: 50rem;
+    width: 150rem;
+    align-items: center;
+    padding: 100;
+    box-sizing: border-box;
+  }
+  
+  

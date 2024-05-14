@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\hp\AppData\Local\Temp\testng-eclipse-1159977704\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.HaUlLogApplicationTests" class="method navigator-link" hash-for-method="contextLoads">contextLoads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameFailureTest" class="method navigator-link" hash-for-method="createNewUserFailure">createNewUserFailure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForTruckServiceTest" class="method navigator-link" hash-for-method="getExpensesForTruckServiceTest">getExpensesForTruckServiceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthFailureTest" class="method navigator-link" hash-for-method="getShipmentsByMonthYearEmpty">getShipmentsByMonthYearEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthYearSuccessTest" class="method navigator-link" hash-for-method="getShipmentsByMonthYearFound">getShipmentsByMonthYearFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameSuccessTest" class="method navigator-link" hash-for-method="getUserByUserNameSuccess">getUserByUserNameSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.controllers.expenseControllerTests.addExpenseControllerTests.AddExpenseControllerSuccessTest" class="method navigator-link" hash-for-method="testAddExpenseControllerSuccess">testAddExpenseControllerSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.services.expenseServiceImplementationTests.AddExpenseTest" class="method navigator-link" hash-for-method="testAddExpenseServiceSuccess">testAddExpenseServiceSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForEmployeeServiceTest" class="method navigator-link" hash-for-method="testGetExpenseByEmployeeServiceSuccess">testGetExpenseByEmployeeServiceSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.controllers.expenseControllerTests.getExpenseByEmployeeIdTests.GetExpenseByEmployeeIdTests" class="method navigator-link" hash-for-method="testGetExpensesForEmployee">testGetExpensesForEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.controllers.expenseControllerTests.getExpenseByTruckIdTests.GetExpensesByTruckIdTests" class="method navigator-link" hash-for-method="testGetExpensesForTruck">testGetExpensesForTruck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.controllers.ShipmentControllerTests" class="method navigator-link" hash-for-method="testGetShipmentsByDateInFutureError">testGetShipmentsByDateInFutureError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.controllers.ShipmentControllerTests" class="method navigator-link" hash-for-method="testGetShipmentsByDateMonthError">testGetShipmentsByDateMonthError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.controllers.ShipmentControllerTests" class="method navigator-link" hash-for-method="testGetShipmentsByDateSuccess">testGetShipmentsByDateSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.controllers.LoginControllerTests" class="method navigator-link" hash-for-method="testLoginSuccess">testLoginSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.controllers.LoginControllerTests" class="method navigator-link" hash-for-method="testLoginUserNotFound">testLoginUserNotFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.controllers.LoginControllerTests" class="method navigator-link" hash-for-method="testLoginWrongPassword">testLoginWrongPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.controllers.SignUpControllerTests" class="method navigator-link" hash-for-method="testSignUpSuccess">testSignUpSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.haullog.haullog.controllers.SignUpControllerTests" class="method navigator-link" hash-for-method="testSignUpUserAlreadyExists">testSignUpUserAlreadyExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameSuccessTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserByUserNameSuccess">
+                  </a> <!-- getUserByUserNameSuccess -->
+                  <span class="method-name">getUserByUserNameSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.haullog.haullog.controllers.expenseControllerTests.getExpenseByEmployeeIdTests.GetExpenseByEmployeeIdTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetExpensesForEmployee">
+                  </a> <!-- testGetExpensesForEmployee -->
+                  <span class="method-name">testGetExpensesForEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForTruckServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getExpensesForTruckServiceTest">
+                  </a> <!-- getExpensesForTruckServiceTest -->
+                  <span class="method-name">getExpensesForTruckServiceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForEmployeeServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetExpenseByEmployeeServiceSuccess">
+                  </a> <!-- testGetExpenseByEmployeeServiceSuccess -->
+                  <span class="method-name">testGetExpenseByEmployeeServiceSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.haullog.haullog.HaUlLogApplicationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contextLoads">
+                  </a> <!-- contextLoads -->
+                  <span class="method-name">contextLoads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.haullog.haullog.controllers.expenseControllerTests.addExpenseControllerTests.AddExpenseControllerSuccessTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddExpenseControllerSuccess">
+                  </a> <!-- testAddExpenseControllerSuccess -->
+                  <span class="method-name">testAddExpenseControllerSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthFailureTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getShipmentsByMonthYearEmpty">
+                  </a> <!-- getShipmentsByMonthYearEmpty -->
+                  <span class="method-name">getShipmentsByMonthYearEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.haullog.haullog.controllers.SignUpControllerTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpSuccess">
+                  </a> <!-- testSignUpSuccess -->
+                  <span class="method-name">testSignUpSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpUserAlreadyExists">
+                  </a> <!-- testSignUpUserAlreadyExists -->
+                  <span class="method-name">testSignUpUserAlreadyExists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthYearSuccessTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getShipmentsByMonthYearFound">
+                  </a> <!-- getShipmentsByMonthYearFound -->
+                  <span class="method-name">getShipmentsByMonthYearFound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.haullog.haullog.controllers.expenseControllerTests.getExpenseByTruckIdTests.GetExpensesByTruckIdTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetExpensesForTruck">
+                  </a> <!-- testGetExpensesForTruck -->
+                  <span class="method-name">testGetExpensesForTruck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.haullog.haullog.controllers.ShipmentControllerTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetShipmentsByDateInFutureError">
+                  </a> <!-- testGetShipmentsByDateInFutureError -->
+                  <span class="method-name">testGetShipmentsByDateInFutureError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetShipmentsByDateMonthError">
+                  </a> <!-- testGetShipmentsByDateMonthError -->
+                  <span class="method-name">testGetShipmentsByDateMonthError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetShipmentsByDateSuccess">
+                  </a> <!-- testGetShipmentsByDateSuccess -->
+                  <span class="method-name">testGetShipmentsByDateSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameFailureTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewUserFailure">
+                  </a> <!-- createNewUserFailure -->
+                  <span class="method-name">createNewUserFailure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.haullog.haullog.controllers.LoginControllerTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginSuccess">
+                  </a> <!-- testLoginSuccess -->
+                  <span class="method-name">testLoginSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginUserNotFound">
+                  </a> <!-- testLoginUserNotFound -->
+                  <span class="method-name">testLoginUserNotFound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWrongPassword">
+                  </a> <!-- testLoginWrongPassword -->
+                  <span class="method-name">testLoginWrongPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.haullog.haullog.services.expenseServiceImplementationTests.AddExpenseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddExpenseServiceSuccess">
+                  </a> <!-- testAddExpenseServiceSuccess -->
+                  <span class="method-name">testAddExpenseServiceSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\hp\AppData\Local\Temp\testng-eclipse-1159977704\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.haullog.haullog.service.ShipmentServiceImplementation&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.models.Shipment&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.controllers.expenseControllerTests.addExpenseControllerTests.AddExpenseControllerSuccessTest&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForEmployeeServiceTest&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.controllers.SignUpController&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.controllers.LoginController&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.repository.UserRepository&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.controllers.ShipmentControllerTests&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.repository.ShipmentRepository&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.controllers.ShipmentController&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.controllers.LoginControllerTests&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForTruckServiceTest&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.controllers.expenseControllerTests.getExpenseByTruckIdTests.GetExpensesByTruckIdTests&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthYearSuccessTest&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.controllers.expenseControllerTests.getExpenseByEmployeeIdTests.GetExpenseByEmployeeIdTests&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.service.UserService&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.models.Expense&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameFailureTest&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.service.ShipmentsService&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.controllers.ExpenseController&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.repository.ExpenseRepository&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.HaUlLogApplicationTests&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.models.User&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.HaUlLogApplication&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameSuccessTest&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.service.UserServiceImplementation&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.controllers.SignUpControllerTests&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthFailureTest&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.service.ExpenseServiceImplementation&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.service.ExpenseService&quot;/&gt;
+      &lt;class name=&quot;com.haullog.haullog.services.expenseServiceImplementationTests.AddExpenseTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (31 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAddExpenseControllerSuccess')
+data.setCell(0, 2, 'com.haullog.haullog.controllers.expenseControllerTests.addExpenseControllerTests.AddExpenseControllerSuccessTest')
+data.setCell(0, 3, 253);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLoginUserNotFound')
+data.setCell(1, 2, 'com.haullog.haullog.controllers.LoginControllerTests')
+data.setCell(1, 3, 18);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getShipmentsByMonthYearFound')
+data.setCell(2, 2, 'com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthYearSuccessTest')
+data.setCell(2, 3, 14);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testAddExpenseServiceSuccess')
+data.setCell(3, 2, 'com.haullog.haullog.services.expenseServiceImplementationTests.AddExpenseTest')
+data.setCell(3, 3, 12);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSignUpUserAlreadyExists')
+data.setCell(4, 2, 'com.haullog.haullog.controllers.SignUpControllerTests')
+data.setCell(4, 3, 11);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testGetShipmentsByDateInFutureError')
+data.setCell(5, 2, 'com.haullog.haullog.controllers.ShipmentControllerTests')
+data.setCell(5, 3, 7);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testGetExpenseByEmployeeServiceSuccess')
+data.setCell(6, 2, 'com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForEmployeeServiceTest')
+data.setCell(6, 3, 7);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getExpensesForTruckServiceTest')
+data.setCell(7, 2, 'com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForTruckServiceTest')
+data.setCell(7, 3, 4);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testGetShipmentsByDateSuccess')
+data.setCell(8, 2, 'com.haullog.haullog.controllers.ShipmentControllerTests')
+data.setCell(8, 3, 4);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testLoginWrongPassword')
+data.setCell(9, 2, 'com.haullog.haullog.controllers.LoginControllerTests')
+data.setCell(9, 3, 4);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testGetExpensesForEmployee')
+data.setCell(10, 2, 'com.haullog.haullog.controllers.expenseControllerTests.getExpenseByEmployeeIdTests.GetExpenseByEmployeeIdTests')
+data.setCell(10, 3, 4);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getShipmentsByMonthYearEmpty')
+data.setCell(11, 2, 'com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthFailureTest')
+data.setCell(11, 3, 3);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSignUpSuccess')
+data.setCell(12, 2, 'com.haullog.haullog.controllers.SignUpControllerTests')
+data.setCell(12, 3, 3);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testLoginSuccess')
+data.setCell(13, 2, 'com.haullog.haullog.controllers.LoginControllerTests')
+data.setCell(13, 3, 3);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testGetShipmentsByDateMonthError')
+data.setCell(14, 2, 'com.haullog.haullog.controllers.ShipmentControllerTests')
+data.setCell(14, 3, 3);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'createNewUserFailure')
+data.setCell(15, 2, 'com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameFailureTest')
+data.setCell(15, 3, 3);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testGetExpensesForTruck')
+data.setCell(16, 2, 'com.haullog.haullog.controllers.expenseControllerTests.getExpenseByTruckIdTests.GetExpensesByTruckIdTests')
+data.setCell(16, 3, 2);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getUserByUserNameSuccess')
+data.setCell(17, 2, 'com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameSuccessTest')
+data.setCell(17, 3, 2);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'contextLoads')
+data.setCell(18, 2, 'com.haullog.haullog.HaUlLogApplicationTests')
+data.setCell(18, 3, 2);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 359 ms</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.haullog.haullog.controllers.expenseControllerTests.addExpenseControllerTests.AddExpenseControllerSuccessTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddExpenseControllerSuccess</span>
+                <span class="method-start">2849 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForEmployeeServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3122 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetExpenseByEmployeeServiceSuccess</span>
+                <span class="method-start">3515 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.haullog.haullog.controllers.ShipmentControllerTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3525 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetShipmentsByDateInFutureError</span>
+                <span class="method-start">4060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4072 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetShipmentsByDateMonthError</span>
+                <span class="method-start">4083 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetShipmentsByDateSuccess</span>
+                <span class="method-start">4093 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.haullog.haullog.controllers.LoginControllerTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginSuccess</span>
+                <span class="method-start">4178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4186 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginUserNotFound</span>
+                <span class="method-start">4189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4216 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginWrongPassword</span>
+                <span class="method-start">4221 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForTruckServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4231 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getExpensesForTruckServiceTest</span>
+                <span class="method-start">4236 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.haullog.haullog.controllers.expenseControllerTests.getExpenseByTruckIdTests.GetExpensesByTruckIdTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4244 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetExpensesForTruck</span>
+                <span class="method-start">4246 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthYearSuccessTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4254 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getShipmentsByMonthYearFound</span>
+                <span class="method-start">4358 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.haullog.haullog.controllers.expenseControllerTests.getExpenseByEmployeeIdTests.GetExpenseByEmployeeIdTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetExpensesForEmployee</span>
+                <span class="method-start">4387 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameFailureTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4394 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewUserFailure</span>
+                <span class="method-start">4486 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.haullog.haullog.HaUlLogApplicationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">contextLoads</span>
+                <span class="method-start">4492 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameSuccessTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getUserByUserNameSuccess</span>
+                <span class="method-start">4502 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.haullog.haullog.controllers.SignUpControllerTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignUpSuccess</span>
+                <span class="method-start">4508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4514 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignUpUserAlreadyExists</span>
+                <span class="method-start">4529 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthFailureTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getShipmentsByMonthYearEmpty</span>
+                <span class="method-start">4554 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.haullog.haullog.services.expenseServiceImplementationTests.AddExpenseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4560 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddExpenseServiceSuccess</span>
+                <span class="method-start">4563 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

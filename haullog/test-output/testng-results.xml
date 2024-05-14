@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-08T09:54:35 GMT-07:00" name="Default suite" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="4696">
+    <groups>
+    </groups>
+    <test started-at="2024-05-08T09:54:35 GMT-07:00" name="Default test" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="4696">
+      <class name="com.haullog.haullog.HaUlLogApplicationTests">
+        <test-method signature="contextLoads()[pri:0, instance:com.haullog.haullog.HaUlLogApplicationTests@6034e75d]" started-at="2024-05-08T09:54:39 GMT-07:00" name="contextLoads" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextLoads -->
+      </class> <!-- com.haullog.haullog.HaUlLogApplicationTests -->
+      <class name="com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForEmployeeServiceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForEmployeeServiceTest@6759f091]" started-at="2024-05-08T09:54:38 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:38 GMT-07:00" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetExpenseByEmployeeServiceSuccess()[pri:0, instance:com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForEmployeeServiceTest@6759f091]" started-at="2024-05-08T09:54:38 GMT-07:00" name="testGetExpenseByEmployeeServiceSuccess" finished-at="2024-05-08T09:54:38 GMT-07:00" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetExpenseByEmployeeServiceSuccess -->
+      </class> <!-- com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForEmployeeServiceTest -->
+      <class name="com.haullog.haullog.controllers.expenseControllerTests.addExpenseControllerTests.AddExpenseControllerSuccessTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.controllers.expenseControllerTests.addExpenseControllerTests.AddExpenseControllerSuccessTest@6aa648b9]" started-at="2024-05-08T09:54:35 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:38 GMT-07:00" duration-ms="2845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddExpenseControllerSuccess()[pri:0, instance:com.haullog.haullog.controllers.expenseControllerTests.addExpenseControllerTests.AddExpenseControllerSuccessTest@6aa648b9]" started-at="2024-05-08T09:54:38 GMT-07:00" name="testAddExpenseControllerSuccess" finished-at="2024-05-08T09:54:38 GMT-07:00" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddExpenseControllerSuccess -->
+      </class> <!-- com.haullog.haullog.controllers.expenseControllerTests.addExpenseControllerTests.AddExpenseControllerSuccessTest -->
+      <class name="com.haullog.haullog.controllers.ShipmentControllerTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.controllers.ShipmentControllerTests@33a053d]" started-at="2024-05-08T09:54:38 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetShipmentsByDateInFutureError()[pri:0, instance:com.haullog.haullog.controllers.ShipmentControllerTests@33a053d]" started-at="2024-05-08T09:54:39 GMT-07:00" name="testGetShipmentsByDateInFutureError" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetShipmentsByDateInFutureError -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.controllers.ShipmentControllerTests@33a053d]" started-at="2024-05-08T09:54:39 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetShipmentsByDateMonthError()[pri:0, instance:com.haullog.haullog.controllers.ShipmentControllerTests@33a053d]" started-at="2024-05-08T09:54:39 GMT-07:00" name="testGetShipmentsByDateMonthError" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetShipmentsByDateMonthError -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.controllers.ShipmentControllerTests@33a053d]" started-at="2024-05-08T09:54:39 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetShipmentsByDateSuccess()[pri:0, instance:com.haullog.haullog.controllers.ShipmentControllerTests@33a053d]" started-at="2024-05-08T09:54:39 GMT-07:00" name="testGetShipmentsByDateSuccess" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetShipmentsByDateSuccess -->
+      </class> <!-- com.haullog.haullog.controllers.ShipmentControllerTests -->
+      <class name="com.haullog.haullog.controllers.LoginControllerTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.controllers.LoginControllerTests@14a54ef6]" started-at="2024-05-08T09:54:39 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginSuccess()[pri:0, instance:com.haullog.haullog.controllers.LoginControllerTests@14a54ef6]" started-at="2024-05-08T09:54:39 GMT-07:00" name="testLoginSuccess" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.controllers.LoginControllerTests@14a54ef6]" started-at="2024-05-08T09:54:39 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginUserNotFound()[pri:0, instance:com.haullog.haullog.controllers.LoginControllerTests@14a54ef6]" started-at="2024-05-08T09:54:39 GMT-07:00" name="testLoginUserNotFound" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUserNotFound -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.controllers.LoginControllerTests@14a54ef6]" started-at="2024-05-08T09:54:39 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWrongPassword()[pri:0, instance:com.haullog.haullog.controllers.LoginControllerTests@14a54ef6]" started-at="2024-05-08T09:54:39 GMT-07:00" name="testLoginWrongPassword" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWrongPassword -->
+      </class> <!-- com.haullog.haullog.controllers.LoginControllerTests -->
+      <class name="com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForTruckServiceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForTruckServiceTest@20921b9b]" started-at="2024-05-08T09:54:39 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getExpensesForTruckServiceTest()[pri:0, instance:com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForTruckServiceTest@20921b9b]" started-at="2024-05-08T09:54:39 GMT-07:00" name="getExpensesForTruckServiceTest" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExpensesForTruckServiceTest -->
+      </class> <!-- com.haullog.haullog.services.expenseServiceImplementationTests.GetExpensesForTruckServiceTest -->
+      <class name="com.haullog.haullog.controllers.expenseControllerTests.getExpenseByTruckIdTests.GetExpensesByTruckIdTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.controllers.expenseControllerTests.getExpenseByTruckIdTests.GetExpensesByTruckIdTests@867ba60]" started-at="2024-05-08T09:54:39 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetExpensesForTruck()[pri:0, instance:com.haullog.haullog.controllers.expenseControllerTests.getExpenseByTruckIdTests.GetExpensesByTruckIdTests@867ba60]" started-at="2024-05-08T09:54:39 GMT-07:00" name="testGetExpensesForTruck" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetExpensesForTruck -->
+      </class> <!-- com.haullog.haullog.controllers.expenseControllerTests.getExpenseByTruckIdTests.GetExpensesByTruckIdTests -->
+      <class name="com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameSuccessTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameSuccessTest@15fc442]" started-at="2024-05-08T09:54:39 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getUserByUserNameSuccess()[pri:0, instance:com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameSuccessTest@15fc442]" started-at="2024-05-08T09:54:39 GMT-07:00" name="getUserByUserNameSuccess" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserByUserNameSuccess -->
+      </class> <!-- com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameSuccessTest -->
+      <class name="com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthYearSuccessTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthYearSuccessTest@5ba745bc]" started-at="2024-05-08T09:54:39 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getShipmentsByMonthYearFound()[pri:0, instance:com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthYearSuccessTest@5ba745bc]" started-at="2024-05-08T09:54:39 GMT-07:00" name="getShipmentsByMonthYearFound" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getShipmentsByMonthYearFound -->
+      </class> <!-- com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthYearSuccessTest -->
+      <class name="com.haullog.haullog.controllers.SignUpControllerTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.controllers.SignUpControllerTests@3f3c7bdb]" started-at="2024-05-08T09:54:39 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignUpSuccess()[pri:0, instance:com.haullog.haullog.controllers.SignUpControllerTests@3f3c7bdb]" started-at="2024-05-08T09:54:39 GMT-07:00" name="testSignUpSuccess" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpSuccess -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.controllers.SignUpControllerTests@3f3c7bdb]" started-at="2024-05-08T09:54:39 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignUpUserAlreadyExists()[pri:0, instance:com.haullog.haullog.controllers.SignUpControllerTests@3f3c7bdb]" started-at="2024-05-08T09:54:39 GMT-07:00" name="testSignUpUserAlreadyExists" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpUserAlreadyExists -->
+      </class> <!-- com.haullog.haullog.controllers.SignUpControllerTests -->
+      <class name="com.haullog.haullog.controllers.expenseControllerTests.getExpenseByEmployeeIdTests.GetExpenseByEmployeeIdTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.controllers.expenseControllerTests.getExpenseByEmployeeIdTests.GetExpenseByEmployeeIdTests@654b72c0]" started-at="2024-05-08T09:54:39 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetExpensesForEmployee()[pri:0, instance:com.haullog.haullog.controllers.expenseControllerTests.getExpenseByEmployeeIdTests.GetExpenseByEmployeeIdTests@654b72c0]" started-at="2024-05-08T09:54:39 GMT-07:00" name="testGetExpensesForEmployee" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetExpensesForEmployee -->
+      </class> <!-- com.haullog.haullog.controllers.expenseControllerTests.getExpenseByEmployeeIdTests.GetExpenseByEmployeeIdTests -->
+      <class name="com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthFailureTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthFailureTest@456abb66]" started-at="2024-05-08T09:54:39 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getShipmentsByMonthYearEmpty()[pri:0, instance:com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthFailureTest@456abb66]" started-at="2024-05-08T09:54:39 GMT-07:00" name="getShipmentsByMonthYearEmpty" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getShipmentsByMonthYearEmpty -->
+      </class> <!-- com.haullog.haullog.services.shipmentServiceImplementationTests.GetShipmentsByMonthFailureTest -->
+      <class name="com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameFailureTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameFailureTest@55b5e331]" started-at="2024-05-08T09:54:39 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewUserFailure()[pri:0, instance:com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameFailureTest@55b5e331]" started-at="2024-05-08T09:54:39 GMT-07:00" name="createNewUserFailure" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUserFailure -->
+      </class> <!-- com.haullog.haullog.services.userServiceImplementation.GetUserByUsernameFailureTest -->
+      <class name="com.haullog.haullog.services.expenseServiceImplementationTests.AddExpenseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.haullog.haullog.services.expenseServiceImplementationTests.AddExpenseTest@2a3a299]" started-at="2024-05-08T09:54:39 GMT-07:00" name="setUp" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddExpenseServiceSuccess()[pri:0, instance:com.haullog.haullog.services.expenseServiceImplementationTests.AddExpenseTest@2a3a299]" started-at="2024-05-08T09:54:39 GMT-07:00" name="testAddExpenseServiceSuccess" finished-at="2024-05-08T09:54:39 GMT-07:00" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddExpenseServiceSuccess -->
+      </class> <!-- com.haullog.haullog.services.expenseServiceImplementationTests.AddExpenseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
