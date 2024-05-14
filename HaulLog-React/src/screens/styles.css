@@ -125,5 +125,39 @@ input[type="email"] {
     padding: 100;
     box-sizing: border-box;
   }
+
+  .report-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.report-table th, .report-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.report-table th {
+  background-color: #f2f2f2;
+}
+
+.total-cost {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 600px) {
+  .report-table {
+    display: block;
+    overflow-x: auto;
+  }
+}
   
   

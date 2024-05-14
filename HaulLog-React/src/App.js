@@ -9,6 +9,7 @@ import Signup from './screens/signup'; // Adjust the path to import Signup compo
 import LandingPage from './screens/landing_page'; // Import the LandingPage component
 import InvoicePage from './screens/invoice_page'; // Import the InvoicePage component
 import LoginLandingPage from './screens/shipments_page';
+import ReportPage from './screens/reportPage';
 import './App.css';
 
 const App = () => {
@@ -22,6 +23,8 @@ const App = () => {
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/invoice" element={<ProtectedRoute><InvoicePage /></ProtectedRoute>} />
           <Route exact path="/landing" element={<ProtectedRoute><LoginLandingPage/></ProtectedRoute>} />
+          <Route exact path="/report" element={<ProtectedRoute><ReportPage/></ProtectedRoute>} />
+
         </Routes>
       </div>
       </AuthProvider>
